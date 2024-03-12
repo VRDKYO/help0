@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.label {
+    font-size: 3em;
+    color: #4a027a;
+    font-family: 'Rancho', serif;
+    pointer-events: none;
+    position: relative;
+}
+
+#red {
+    
+    position: relative;
+    background-color: #ff9090;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#ora {
+    
+    position: relative;
+    background-color: #ffc690;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#yel {
+    
+    position: relative;
+    background-color: #ffeb90;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#gre {
+    
+    position: relative;
+    background-color: #a6ff90;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#blu {
+    
+    position: relative;
+    background-color: #90cdff;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#ind {
+    
+    position: relative;
+    background-color: #8974d0;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+#vio {
+    
+    position: relative;
+    background-color: #d390ff;
+    width: 100%;
+    font-size: 4em;
+    text-align: center;
+    color: #fff;
+}
+
+.navig a.marg{
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.navig a:hover, 
+.navig a.active{
+    border-radius: 5px;
+    padding: 10px 25px;
+    background:#ffc57e;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.introandback {
+    position: inherit;
+    background: #c0d9ff;
+    padding: 100px;
+    margin-top: 0px;
+}
+.introandback h2 {
+    font-size: 3em;
+    color: #000;
+    margin-top: 5px;
+}
+
+.introandback p {
+    font-size: 1em;
+    color: #000;
+    font-weight: 300;
+}
+
+.introandback li {
+    font-size: 1em;
+    color: #000;
+    font-weight: 300;
+}
